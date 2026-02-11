@@ -55,7 +55,7 @@ nav {
     justify-content: space-between;
 }
 
-.menu-toggle { display: none; background: none; border: none; color: #fff; font-size: 24px; cursor: pointer; padding: 0; transition: color 0.3s; } .menu-toggle:hover { color: #d40078; } .logo-marque img {
+.menu-toggle { display: none; background: none; border: none; color: #fff; font-size: 24px; cursor: pointer; padding: 0; transition: color 0.3s; z-index: 1001; } .menu-toggle:hover { color: #d40078; } .logo-marque img {
     width: 64px;
     height: 48px;
 }
@@ -1945,7 +1945,7 @@ nav {
     justify-content: space-between;
 }
 
-.menu-toggle { display: none; background: none; border: none; color: #fff; font-size: 24px; cursor: pointer; padding: 0; transition: color 0.3s; } .menu-toggle:hover { color: #d40078; } .logo-marque img {
+.menu-toggle { display: none; background: none; border: none; color: #fff; font-size: 24px; cursor: pointer; padding: 0; transition: color 0.3s; z-index: 1001; } .menu-toggle:hover { color: #d40078; } .logo-marque img {
     width: 64px;
     height: 48px;
 }
