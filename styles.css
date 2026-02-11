@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 * {
     margin: 0;
     padding: 0;
@@ -1107,9 +1107,9 @@ footer {
     font-size: 14px;
 }
 
-/* =====================================================
+/* ====
    ANIMATIONS SYSTEM (MODIFIÉ POUR NO-JS)
-   ===================================================== */
+   ==== */
 
 @keyframes marquee {
     0% { transform: translateX(0); }
@@ -1861,7 +1861,7 @@ footer {
         font-size: 18px;
     }
 }
-=======
+
 * {
     margin: 0;
     padding: 0;
@@ -2970,9 +2970,9 @@ footer {
     font-size: 14px;
 }
 
-/* =====================================================
+/* ====
    ANIMATIONS SYSTEM (MODIFIÉ POUR NO-JS)
-   ===================================================== */
+   ==== */
 
 @keyframes marquee {
     0% { transform: translateX(0); }
@@ -3093,4 +3093,4 @@ footer {
     }
     .ligne-chronologie { display: none; }
 }
->>>>>>> b69252ef0c5dae5cf1c230eef308233b67533503
+
