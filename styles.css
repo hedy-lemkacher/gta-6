@@ -55,7 +55,7 @@ nav {
     justify-content: space-between;
 }
 
-.logo-marque img {
+.menu-toggle { display: none; background: none; border: none; color: #fff; font-size: 24px; cursor: pointer; padding: 0; transition: color 0.3s; } .menu-toggle:hover { color: #d40078; } .logo-marque img {
     width: 64px;
     height: 48px;
 }
@@ -1226,6 +1226,11 @@ footer {
     
     .contenu-nav {
         padding: 15px 20px;
+        gap: 15px;
+    }
+    
+    .menu-toggle {
+        display: block;
     }
     
     .logo-marque img {
@@ -1234,11 +1239,29 @@ footer {
     }
     
     .liens-nav {
-        gap: 15px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: rgba(11, 11, 18, 0.95);
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    
+    .liens-nav.active {
+        max-height: 300px;
+        padding: 15px 0;
     }
     
     .element-nav {
+        padding: 12px 20px;
         font-size: 12px;
+        border-bottom: none;
     }
     
     .bouton-nav-cta {
@@ -1516,13 +1539,17 @@ footer {
         padding: 12px 15px;
     }
     
+    .menu-toggle {
+        font-size: 20px;
+    }
+    
     .logo-marque img {
         width: 40px;
         height: 30px;
     }
     
     .liens-nav {
-        gap: 12px;
+        max-height: 300px;
     }
     
     .element-nav {
@@ -1918,7 +1945,7 @@ nav {
     justify-content: space-between;
 }
 
-.logo-marque img {
+.menu-toggle { display: none; background: none; border: none; color: #fff; font-size: 24px; cursor: pointer; padding: 0; transition: color 0.3s; } .menu-toggle:hover { color: #d40078; } .logo-marque img {
     width: 64px;
     height: 48px;
 }
